@@ -152,12 +152,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="P11.cpp" />
+    <ClCompile Include="P12.cpp" />
     <ClCompile Include="Prob10.cpp" />
     <ClCompile Include="Prob9.cpp" />
     <ClCompile Include="ProjectEuler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="P11.h" />
+    <ClInclude Include="P12.h" />
     <ClInclude Include="Prob10.h" />
     <ClInclude Include="Prob9.h" />
     <ClInclude Include="Useful.h" />

@@ -2,14 +2,28 @@
 //
 
 #include "Useful.h"
-#include "Prob10.h"
+#include "P12.h"
 
 int main()
 {
-  const bint n = 2000000;
-  std::vector<bint> primes;
-  P10::GetPrimesUpTo(n, primes);
-  std::cout << P10::SumVector(primes);
+  /*for (bint i = 1; i < 15; ++i)
+  {
+    bint triangle = P12::GetTriangleNumber(i);
+    std::cout << triangle << ": " << P12::GetDivisors(triangle) << ", ";
+  }*/
+  bint i = 10;
+  /*while (true)
+  {
+    bint triangle = P12::GetTriangleNumber(i);
+    bint divisors = P12::GetDivisors(triangle);
+    if (divisors > 500)
+    {
+      std::cout << triangle << ": " << divisors;
+      break;
+    }
+    ++i;
+  }*/
+  std::cout << P12::GetDivisors(12375) << ": " << P12::GetDivisors(12376);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

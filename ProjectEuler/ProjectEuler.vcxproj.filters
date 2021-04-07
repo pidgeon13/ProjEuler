@@ -27,6 +27,9 @@
     <ClCompile Include="P11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="P12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Useful.h">
@@ -39,6 +42,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="P11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P12.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
